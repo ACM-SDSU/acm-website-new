@@ -1,5 +1,5 @@
 import React from "react";
-import { officers } from "../data";
+import { officers } from "../data/officers";
 
 export default function Officers(){
     return (
