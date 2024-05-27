@@ -1,5 +1,6 @@
 import React from "react";
 import { officers } from "../data/officers";
+import "../index.css";
 
 export default function Officers(){
     return (

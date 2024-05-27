@@ -1,5 +1,5 @@
 import './App.css';
-
+import "./index.css";
 import React from "react";
 import About from "./components/About";
 import Officers from "./components/Officers";
