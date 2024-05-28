@@ -29,7 +29,7 @@ export default function Overview(){
                     <div class="text-gray-200 bg-gray-600 p-4 rounded-xl flex flex-col items-center justify-start w-1/4">
                         <p class="text-2xl font-bold mb-1">Join the ACM Chapter</p>
                         <div class="mb-3 mt-3">
-                            <a href="https://discord.gg/UuNuggpKYV" class="flex items-center justify-center space-x-2 text-2xl">
+                            <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="flex items-center justify-center space-x-2 text-2xl">
                                 <img class="w-9 h-9 mr-3" src="https://cdn.iconscout.com/icon/free/png-256/free-discord-3691244-3073764.png?f=webp"/>
                                 discord.gg/UuNuggpKYV
                             </a>
