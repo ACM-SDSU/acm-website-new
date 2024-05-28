@@ -3,9 +3,9 @@ import React from "react";
 export default function Navbar() {
     return (
       <header className="bg-acm-blue md:sticky top-0 z-10">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
           <a className="title-font font-medium text-white mb-4 md:mb-0">
-            <a href="#about" className="ml-3 text-xl">
+            <a href="overview" className="ml-3 text-xl">
               Association for Computing Machinery
             </a>
           </a>
@@ -16,11 +16,14 @@ export default function Navbar() {
             <a href="#officers" className="mr-5 hover:text-white">
               Officers
             </a>
-            <a href="#contact" className="mr-5 hover:text-white">
-              Contact
+            <a href="#guestspeakers" className="mr-5 hover:text-white">
+              Guest Speakers
             </a>
             <a href="#events" className="mr-5 hover:text-white">
               Upcoming Events
+            </a>
+            <a href="#contact" className="mr-5 hover:text-white">
+              Contact
             </a>
           </nav>
         </div>
