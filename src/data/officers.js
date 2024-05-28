@@ -35,7 +35,7 @@ export const officers = [
     },
     {
         name: "Ian Beard",
-        position: "Vice President of Publicity",
+        position: "Vice President of Public Relations",
         email: "ibeard5884@sdsu.edu",
         major: "Astronomy",
         committees: ["Recruitment & Public Relations"],
