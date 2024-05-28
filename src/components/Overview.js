@@ -15,7 +15,16 @@ export default function Overview(){
                     </div>
                     <div class="text-gray-200 bg-gray-600 p-4 rounded-xl flex flex-col items-center justify-start w-1/4">
                         <p class="text-2xl font-bold mb-1">Meeting Times</p>
-                        <p class="text-lg"><b class="text-acm-yellow">Wednesdays from 4:00pm to 5:30pm</b> (Tentative) at <a href="https://everettrichards.com" target="_blank"><b class="text-acm-orange">Location TBD</b></a>, plus additional workshops and seminars throughout the week.</p>
+                        <p class="text-lg">
+                            <b class="text-acm-yellow">
+                                Wednesdays from 4:00pm to 5:30pm
+                            </b> (Tentative) at <a href="https://everettrichards.com" target="_blank">
+                                <b class="text-acm-orange underline">
+                                    Location TBD
+                                </b>
+                            </a>
+                            , plus additional workshops and seminars throughout the week.
+                        </p>
                     </div>
                     <div class="text-gray-200 bg-gray-600 p-4 rounded-xl flex flex-col items-center justify-start w-1/4">
                         <p class="text-2xl font-bold mb-1">Join the ACM Chapter</p>
