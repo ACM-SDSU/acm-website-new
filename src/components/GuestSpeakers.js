@@ -3,7 +3,7 @@ import { guests } from "../data/officers";
 
 export default function GuestSpeakers(){
     return (
-        <section id="guestspeakers"  class="pt-16">
+        <section id="guestspeakers"  class="pt-16 h-screen">
             <h1 class="text-4xl font-bold text-center m-4">Guest Speakers</h1>
             <div class="flex flex-row space-x-4 p-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4 pl-8 pr-8 justify-items-center">
