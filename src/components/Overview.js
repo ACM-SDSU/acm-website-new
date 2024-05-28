@@ -6,12 +6,12 @@ export default function Overview(){
     return (
         <section id="overview" class="h-screen bg-cover bg-center" style={{backgroundImage: `url(${imageUrl})`}}>
             <div class="bg-black bg-opacity-50 w-full h-full flex flex-col justify-center items-center">
-                <h1 class="text-8xl text-gray-100 w-3/4 font-bold text-center mb-4">Welcome to the <span class="text-acm-light-blue">ACM</span>!</h1>
+                <h1 class="text-8xl text-gray-100 w-4/5 font-bold text-center mb-4">Welcome to <span class="text-acm-light-blue">ACM</span> @<span class="text-acm-red">SDSU</span>!</h1>
 
                 <div class="flex flex-row space-x-4 p-4 justify-center">
                     <div class="text-gray-200 bg-gray-600 p-4 rounded-xl flex flex-col items-center justify-start w-1/4">
                         <p class="text-2xl font-bold mb-1">About Us</p>
-                        <p class="text-lg">We are the <b class="text-acm-light-blue">Association for Computing Machinery (ACM)</b> Student Chapter at San Diego State University.</p>
+                        <p class="text-lg">We are the <span class="text-acm-light-blue font-bold">Association for Computing Machinery (ACM)</span> Student Chapter at <span class="text-acm-red font-bold">San Diego State University</span>.</p>
                     </div>
                     <div class="text-gray-200 bg-gray-600 p-4 rounded-xl flex flex-col items-center justify-start w-1/4">
                         <p class="text-2xl font-bold mb-1">Meeting Times</p>

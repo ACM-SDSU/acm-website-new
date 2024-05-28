@@ -7,7 +7,7 @@ export const officers = [
         email: "erichards5198@sdsu.edu",
         major: "Computer Science and Applied Mathematics",
         committees: ["Finance","Recruitment & Public Relations","Workshops & Curricula"],
-        photo: "./images/officers/EverettRichards.jpg"
+        photo: require("../images/officers/everett.png"),
     },
     {
         name: "Jake Basile",
@@ -15,7 +15,7 @@ export const officers = [
         email: "jbasile0009@sdsu.edu",
         major: "Statistics / Data Science",
         committees: ["Finance","Workshops & Curricula"],
-        photo: blank
+        photo: require("../images/officers/jake.png"),
     },
     {
         name: "Nitin Chatlani",
@@ -31,7 +31,7 @@ export const officers = [
         email: "tgheewala4792@sdsu.edu",
         major: "Computer Engineering",
         committees: ["Finance"],
-        photo: blank
+        photo: require("../images/officers/tanish.png")
     },
     {
         name: "Ian Beard",
@@ -39,7 +39,7 @@ export const officers = [
         email: "ibeard5884@sdsu.edu",
         major: "Astronomy",
         committees: ["Recruitment & Public Relations"],
-        photo: blank
+        photo: require("../images/officers/ian.png"),
     },
     {
         name: "Isabella King",
@@ -47,7 +47,7 @@ export const officers = [
         email: "iking4380@sdsu.edu",
         major: "Computer Science",
         committees: ["Recruitment & Public Relations","Workshops & Curricula"],
-        photo: blank
+        photo: require("../images/officers/bella.png"),
     },
     {
         name: "JP Zendejas",
