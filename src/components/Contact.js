@@ -3,7 +3,8 @@ import React from "react";
 export default function Contact(){
     return (
         <section id="contact"  class="pt-16">
-            <h1 class="text-4xl font-bold text-center m-4">Contact</h1>
+            <h1 class="text-4xl font-bold text-center m-4">Contact Us</h1>
+            <p class="text-center text-xl">The ACM welcomes you to reach out at any time via Discord, Instagram, or Email.</p>
             <div class="flex flex-row space-x-4 p-4 justify-center text-2xl text-center">
                 <div class="p-4 w-1/5">
                     <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="flex items-center justify-center space-x-2">
