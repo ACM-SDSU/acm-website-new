@@ -1,5 +1,3 @@
-import './App.css';
-import "./index.css";
 import React from "react";
 import About from "./components/About";
 import Officers from "./components/Officers";
@@ -9,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-900 bg-gray-200 body-font">
       <Navbar />
       <About />
       <Officers />
