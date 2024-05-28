@@ -31,6 +31,8 @@ theme: {
       fontFamily: {
         'sans': ['"Montserrat"', 'sans-serif'],
         'serif': ['"Merriweather"', 'serif'],
+        'mono': ['"Inconsolata"', 'monospace'],
+        'ACM': ['myriad-pro','sans-serif'],
       },
     },
 }

@@ -10,7 +10,7 @@ import GuestSpeakers from "./components/GuestSpeakers";
 
 function App() {
   return (
-    <main className="text-gray-900 bg-gray-200 body-font">
+    <main className="text-gray-900 bg-gray-200 body-font font-ACM">
       <Navbar />
       <Overview />
       <About />
@@ -18,7 +18,7 @@ function App() {
       <GuestSpeakers />
       <Events />
       <Contact />
-      <Footer />
+      {/*<Footer />*/}
     </main>
   );
 }
