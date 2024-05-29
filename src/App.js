@@ -10,12 +10,12 @@ import GuestSpeakers from "./components/GuestSpeakers";
 
 function App() {
   return (
-    <main className="text-gray-900 bg-gray-200 body-font font-ACM">
+    <main className="text-gray-900 bg-gray-100 body-font font-ACM">
       <Navbar />
       <Overview />
       <About />
       <Officers />
-      <GuestSpeakers />
+      {/*<GuestSpeakers />*/}
       <Events />
       <Contact />
       {/*<Footer />*/}

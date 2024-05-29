@@ -23,7 +23,7 @@ export const officers = [
         email: "nchatlani5481@sdsu.edu",
         major: "Computer Science",
         committees: ["Recruitment & Public Relations","Workshops & Curricula"],
-        photo: blank
+        photo: require("../images/officers/nitin.png")
     },
     {
         name: "Tanish Gheewala",
@@ -55,7 +55,7 @@ export const officers = [
         email: "jzendejas1726@sdsu.edu",
         major: "Computer Science",
         committees: ["Workshops & Curricula"],
-        photo: blank
+        photo: require("../images/officers/jp.png")
     },
     {
         name: "Dr. Miranda Parker",

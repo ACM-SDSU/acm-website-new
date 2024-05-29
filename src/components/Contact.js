@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Contact(){
     return (
-        <section id="contact"  class="pt-16 pb-8">
+        <section id="contact" class="pt-6 pb-12">
             <h1 class="text-4xl font-bold text-center m-4">Contact Us</h1>
             <p class="text-center text-xl">The ACM welcomes you to reach out at any time via Discord, Instagram, or Email.</p>
             <div class="flex flex-row space-x-4 p-4 justify-center text-2xl text-center">
@@ -25,6 +25,7 @@ export default function Contact(){
                     </a>
                 </div>
             </div>
+            <p class="text-center text-xl">You can also catch us at our weekly chapter meeting at [LOCATION TBD] from 4:00-5:00pm.</p>
         </section>
     );
 }

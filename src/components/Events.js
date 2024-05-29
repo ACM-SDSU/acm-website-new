@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Events(){
     return (
-        <section id="events"  class="py-16 min-h-screen bg-acm-dark-blue text-gray-200">
+        <section id="events"  class="py-8 min-h-screen bg-acm-dark-blue text-gray-200">
             <h1 class="text-4xl font-bold text-center m-4">Upcoming Events</h1>
             <div class="flex flex-row justify-center">
                 <div class="bg-gray-800 p-2 border-4 border-gray-200 w-3/4 mt-6 mb-4 flex flex-col items-center justify-center">
