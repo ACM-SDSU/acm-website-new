@@ -3,7 +3,7 @@ import { officers } from "../data/officers";
 
 export default function Officers(){
     return (
-        <section id="officers"  class="py-5 bg-gray-900 text-gray-200 min-h-screen">
+        <section id="officers"  class="py-4 bg-gray-900 text-gray-200 min-h-screen">
             <h1 class="text-4xl font-bold text-center m-4">Executive Committee</h1>
             <div class="flex flex-row space-x-4 p-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 justify-center mx-auto gap-4 pl-8 pr-8">
