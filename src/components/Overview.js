@@ -7,6 +7,7 @@ export default function Overview(){
         <section id="overview" class="h-screen bg-cover bg-center" style={{backgroundImage: `url(${imageUrl})`}}>
             <div class="bg-black bg-opacity-50 w-full h-full flex flex-col justify-center items-center">
                 <h1 class="text-8xl text-gray-100 w-4/5 font-bold text-center mb-4">Welcome to <span class="text-acm-light-blue">ACM</span> @<span class="text-acm-red">SDSU</span>!</h1>
+                <h2 class="text-5xl text-gray-300 w-4/5 font-bold text-center mb-4">2024-2025 Academic Year</h2>
 
                 <div class="flex flex-row space-x-4 p-4 justify-center">
                     <div class="text-gray-100 bg-gray-600 bg-opacity-90 p-4 rounded-xl flex flex-col items-center justify-start w-1/4">

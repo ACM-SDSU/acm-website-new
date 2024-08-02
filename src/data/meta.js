@@ -19,5 +19,5 @@ export const info = {
 
     <br /><br />
 
-    The ACM Student Chapter at SDSU (ACM@SDSU) is open to ALL students at San Diego State University.`
+    The ACM Student Chapter at SDSU (ACM@SDSU) is open to ALL students and faculty at San Diego State University.`
 }

@@ -5,7 +5,7 @@ export const officers = [
         name: "Everett Richards",
         position: "President",
         email: "erichards5198@sdsu.edu",
-        major: "Computer Science and Applied Mathematics",
+        major: "Computer Science / Applied Math",
         committees: ["Finance","Recruitment & Public Relations","Workshops & Curricula"],
         photo: require("../images/officers/everett.png"),
     },
@@ -61,7 +61,7 @@ export const officers = [
         name: "Dr. Miranda Parker",
         position: "Faculty Advisor",
         email: "mcparker@sdsu.edu",
-        major: "Computer Science",
+        major: "Professor of Computer Science",
         committees: ["N/A"],
         photo: "https://cs.sdsu.edu/wp-content/uploads/profiles/miranda-parker-300.jpg"
     },
