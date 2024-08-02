@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
+import SDSU_Mini_Logo_32px from "../images/logos/SDSU_Mini_Logo_32px.png";
 //import SDSU_Small_TR from "../images/logos/SDSU_Small_TR.png";
 const SDSU_White_BG = "https://brand.sdsu.edu/_images/_logo-section/downloads/1000-monogram-red.jpg";
 const SDSU_Red_BG = "https://media.discordapp.net/attachments/1243989668194942996/1245081775382986794/image.png?ex=66577443&is=665622c3&hm=91d0fb90bd1abf46da3d108a223d54cc6a974acdbed7c11880ce786489957250&=&format=webp&quality=lossless&width=487&height=246";
 const SDSU_Black_BG = "https://brand.sdsu.edu/_images/_logo-section/downloads/1000-monogram-white.jpg";
 const ACM_Logo = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/2048px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png";
-const SDSU_SVG = "https://cdn.discordapp.com/attachments/1243989668194942996/1245088566783246487/sdsu_monogram_cmyk_solid_white.svg?ex=66577a96&is=66562916&hm=7a76e8a6f54f92fa652b0013329fce2d5d0e9c566bc80d9e43f3533aa32e24d6&";
 
 const buttons = [
   ["About", "about"],
@@ -28,7 +28,7 @@ export default function Navbar() {
               duration={500}
               className="flex justify-center items-center ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0"
               >
-              <img src={SDSU_SVG} class="h-7 mt-1 mr-2 bg-sdsu-bright-red" />
+              <img src={SDSU_Mini_Logo_32px} class="h-7 mt-1 mr-2 bg-sdsu-bright-red" />
               Association for Computing Machinery
             </Link>
           <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center text-gray-200">
