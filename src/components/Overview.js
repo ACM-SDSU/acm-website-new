@@ -1,10 +1,10 @@
 import React from "react";
 import { Link, Element, animateScroll as scroll } from "react-scroll";
+import ComputerChip from "../images/logos/ComputerChip.jpg";
 
 export default function Overview(){
-    const imageUrl = 'https://scx2.b-cdn.net/gfx/news/2020/computerchips.jpg';
     return (
-        <section id="overview" class="h-screen bg-cover bg-center" style={{backgroundImage: `url(${imageUrl})`}}>
+        <section id="overview" class="h-screen bg-cover bg-center" style={{backgroundImage: `url(${ComputerChip})`}}>
             <div class="bg-black bg-opacity-50 w-full h-full flex flex-col justify-center items-center">
                 <h1 class="text-8xl text-gray-100 w-4/5 font-bold text-center mb-4">Welcome to <span class="text-acm-light-blue">ACM</span> @<span class="text-acm-red">SDSU</span>!</h1>
                 <h2 class="text-4xl text-gray-300 w-4/5 font-bold text-center mb-4">2024-2025 Academic Year</h2>
