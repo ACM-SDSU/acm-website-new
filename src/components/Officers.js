@@ -10,9 +10,11 @@ export default function Officers(){
                     {officers.map((officer) => (
                         <div key={officer.id} className="text-gray-200 bg-gradient-to-r from-acm-dark-blue to-acm-dark-blue via-acm-blue p-4 rounded-lg flex flex-col items-center justify-center">
                             <img src={officer.photo} class="w-32 h-32 mb-1 rounded-xl"></img>
-                            <a href={"mailto:" + officer.email} class="text-2xl flex items-center justify-center space-x-2 font-bold">{officer.name} (
-                                <img class="w-7 h-7 opacity-50" src="https://as.sdsu.edu/images/assets/assets-icons/email.svg" alt="Email Icon"></img>
-                                )
+                            <a href={officer.url ? officer.url : `mailto:${officer.email}`} target="_blank" class="text-2xl flex items-center justify-center space-x-2 font-bold">
+                                {officer.name}
+                                {/*(
+                                <img class="w-7 h-7 opacity-50" src="https://as.sdsu.edu/images/assets/assets-icons/email.svg" alt="Email Icon" />
+                                )*/}
                             </a>
                             <p class="text-xl">{officer.position}</p>
                             <p class="text-center text-gray-200">{officer.major}</p>

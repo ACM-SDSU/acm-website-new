@@ -5,6 +5,7 @@ export const officers = [
         name: "Everett Richards",
         position: "President",
         email: "erichards5198@sdsu.edu",
+        url: "https://everettrichards.com",
         major: "Computer Science / Applied Math",
         committees: ["Finance","Recruitment & Public Relations","Workshops & Curricula"],
         photo: require("../images/officers/everett.png"),
