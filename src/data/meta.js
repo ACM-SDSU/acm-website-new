@@ -1,5 +1,3 @@
-import { AcmAtSdsuLightBg } from "../components/AcmAtSdsu";
-
 export const info = {
     description: 
     `Welcome to the Association for Computing Machinery (ACM) Student Chapter at San Diego State University!
