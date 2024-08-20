@@ -1,3 +1,5 @@
+import { AcmAtSdsuLightBg } from "../components/AcmAtSdsu";
+
 export const info = {
     description: 
     `Welcome to the Association for Computing Machinery (ACM) Student Chapter at San Diego State University!
@@ -10,7 +12,7 @@ export const info = {
 
     <br /><br />
 
-    The ACM Chapter at SDSU is run by STEM undergraduates at San Diego State University. We are a group of students who are
+    The <AcmAtSdsuLightBg /> is run by STEM undergraduates at San Diego State University. We are a group of students who are
     passionate about computing and technology. We are dedicated to providing our members with opportunities to learn about
     the latest technologies, network with professionals, and develop their skills.
     Socials and formals will also be a part of our club here at SDSU. We plan to take trips to computing-related locations

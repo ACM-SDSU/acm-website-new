@@ -1,10 +1,11 @@
 import React from "react";
+import { AcmAtSdsuLightBg } from "./AcmAtSdsu";
 
 export default function Contact(){
     return (
         <section id="contact" class="pt-6 pb-12">
             <h1 class="text-4xl font-bold text-center m-4">Contact Us</h1>
-            <p class="text-center text-xl m-4 p-4">The ACM welcomes you to reach out at any time via Discord, Instagram, or Email.</p>
+            <p class="text-center text-xl m-4 p-4">The <AcmAtSdsuLightBg /> welcomes you to reach out at any time via Discord, Instagram, or Email.</p>
             <div class="flex flex-row flex-wrap space-x-4 m-4 justify-center text-2xl text-center">
                 <div class="p-4 min-w-1/5">
                     <a href="https://discord.gg/UuNuggpKYV" target="_blank" class="flex items-center justify-center space-x-2 hover:text-acm-blue">
