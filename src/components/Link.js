@@ -12,3 +12,7 @@ export default function ILink(params) {
 		/>
 	);
 }
+
+/*
+NOTE: ILink should offset differently (less) on mobile devices.
+*/
