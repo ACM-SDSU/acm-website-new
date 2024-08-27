@@ -17,7 +17,7 @@ export default function Officers() {
 									)*/}
 							</p>
 							<p class="text-xl">{officer.position}</p>
-							<p class="text-gray-200">{officer.major}</p>
+							<p class="text-gray-200 italic">{officer.major}</p>
 							{/* <p class="text-center text-gray-400">Committees: {officer.committees.join(", ")}</p> */}
 						</div>
 					</a>
