@@ -18,4 +18,6 @@ def zip_directory(directory, zip_name):
 # Example usage
 directory_to_zip = './build'
 output_zip_file = f'./build_archive/build-{current_month:02}-{current_day:02}-{current_year}.zip'
+output_zip_2 = f'./current-build.zip'
 zip_directory(directory_to_zip, output_zip_file)
+zip_directory(directory_to_zip, output_zip_2)
