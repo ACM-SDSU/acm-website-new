@@ -26,7 +26,7 @@ export default function Navbar() {
               smooth={true}
               offset={-64}
               duration={500}
-              className="flex justify-center items-center ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0"
+              className="flex justify-center items-center ml-3 text-xl title-font font-medium text-white mb-4 md:mb-0 cursor-pointer"
               >
               <img src={SDSU_Mini_Logo_32px} class="h-7 mt-1 mr-2 bg-sdsu-bright-red" />
               Association for Computing Machinery
@@ -40,7 +40,7 @@ export default function Navbar() {
                 smooth={true}
                 offset={-64}
                 duration={500}
-                className="mr-6 hover:text-acm-yellow"
+                className="mr-6 hover:text-acm-yellow cursor-pointer"
                 >
                 {button[0]}
                 </Link>
