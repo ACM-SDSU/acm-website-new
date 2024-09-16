@@ -18,7 +18,7 @@ export function ChipContent({ children }) {
 
 export function ChipButton({ children }) {
 	return (
-		<div class="flex items-center justify-center bg-acm-blue bg-opacity-70 py-0 px-2 mt-4 mb-1 rounded-xl space-x-2 text-2xl hover:text-acm-light-blue">
+		<div class="flex items-center justify-center bg-acm-blue bg-opacity-70 py-0 px-2 mt-4 mb-1 rounded-xl space-x-2 text-2xl hover:text-acm-light-blue cursor-pointer">
 			{children}
 		</div>
 	);
