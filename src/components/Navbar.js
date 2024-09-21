@@ -11,6 +11,7 @@ const buttons = [
   ["About", "about"],
   ["Officers", "officers"],
   //["Guest Speakers", "guestspeakers"],
+  ["Outreach", "outreach"],
   ["Upcoming Events", "events"],
   ["Contact Us", "contact"],
 ]

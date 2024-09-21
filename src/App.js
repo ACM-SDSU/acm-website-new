@@ -3,6 +3,7 @@ import About from "./components/About";
 import Officers from "./components/Officers";
 import Contact from "./components/Contact";
 import Events from "./components/Events";
+import Outreach from "./components/Outreach";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Overview from "./components/Overview";
@@ -15,6 +16,7 @@ function App() {
       <Overview />
       <About />
       <Officers />
+      <Outreach />
       {/*<GuestSpeakers />*/}
       <Events />
       <Contact />
