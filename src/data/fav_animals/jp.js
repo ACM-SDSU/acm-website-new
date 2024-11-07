@@ -3,5 +3,5 @@ export const jp_animals = {
     "description": "fluffy and cute",
     "type": "mammal",
     "height": "1FT",
-    "weight": 30
+    "weight": 15
 };
